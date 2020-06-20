@@ -86,7 +86,8 @@ async function getTokenAndSlug() {
 	tournamentSlug = localStorage.getItem('tournamentSlug');
 	authToken = localStorage.getItem('authToken');
 
-	queryTournament();
+	//queryTournament();
+	verifyTokenSlug();
 }
 
 //Asynchronous fetch for tournament info
